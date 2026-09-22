@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+}
+
+nav {
+    padding: 25px 8%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8%;
+}
+
+.hero h1 {
+    max-width: 800px;
+    font-size: 65px;
+}
+
+button {
+    width: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+}
